@@ -12,7 +12,7 @@
        .body{
            max-width: 1200px;
            margin: 0 auto;
-           padding: 20px 0;
+           padding: 40px 0;
        }
 
 
@@ -21,8 +21,8 @@
         display: grid; 
         grid-template-columns: repeat(10, 1fr); 
         grid-template-rows: repeat(4, 1fr); 
-        grid-column-gap: 8px;
-        grid-row-gap: 8px; 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
         }
         .parent > div {
             border: 1px solid black;
@@ -49,9 +49,9 @@
 </head>
 <body>
     <div class="parent"> 
-        <div class="div1"> </div> 
+        <div class="div1"> <img width="370px" height="810px" src="assets/10639697fc2c3d6a072dbd5c488c6b23.jpg" alt=""></div> 
         <div class="div2"> 
-            <img width="100%" src="assets/photo_2020-09-08 16.07.11.jpeg" alt="">
+            <img width="375px" height="520px" src="assets/photo_2020-09-08 16.07.11.jpeg" alt="">
         </div> 
         <div class="div3"> 
             <img width="100%" height="520px"  src="assets/0c91864604c7dc297059f4cffc0e9a72.jpg" alt="">
@@ -61,3 +61,14 @@
         </div>
 
 </body>
+
+/* image 2 */
+
+position: absolute;
+width: 370px;
+height: 810px;
+left: 1070px;
+top: 520px;
+
+background: url(image.png);
+
